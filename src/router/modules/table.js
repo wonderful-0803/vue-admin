@@ -8,7 +8,7 @@ const tableRouter = {
   redirect: '/table/complex-table',
   name: 'Table',
   meta: {
-    title: 'Table',
+    title: '商品后台',
     icon: 'table'
   },
   children: [
@@ -16,7 +16,13 @@ const tableRouter = {
       path: 'inline-edit-table',
       component: () => import('@/views/table/inline-edit-table'),
       name: 'InlineEditTable',
-      meta: { title: 'Inline Edit' }
+      meta: { title: '商品信息' }
+    },
+    {
+      path: 'complex-table',
+      component: () => import('@/views/table/complex-table'),
+      name: 'ComplexTable',
+      meta: { title: '管理商品' }
     }
   ]
 }

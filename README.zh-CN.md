@@ -1,3 +1,7 @@
+# 本人借鉴vue-element-admin开源项目下的vue-element-template项目进行二次开发并借鉴此开发手册，故不错任何修改，将其保留
+
+
+
 <p align="center">
   <img width="320" src="https://wpimg.wallstcn.com/ecc53a42-d79b-42e2-8852-5126b810a4c8.svg">
 </p>
